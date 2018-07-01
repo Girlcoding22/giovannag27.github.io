@@ -1,0 +1,28 @@
+body{
+background-color:rgb(255, 191, 240);
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-indent: 80px;
+    font-size: 45px;
+    font-family: fantasy;
+    text-shadow: 3px 2px blue ;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px; 
+}
+h {
+    text-decoration: underline;
+    color: rebeccapurple; 
+}   
+#yellow{
+    text-align: left;
+    text-indent: 2px;
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: none;
+    padding: 0;
+}

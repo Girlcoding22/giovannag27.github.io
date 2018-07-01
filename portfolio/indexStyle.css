@@ -1,3 +1,51 @@
-body
-{
-    background-color:hotpink};
+body{
+background-color:rgb(255, 191, 240);
+}
+a {
+    text-decoration: none;
+}
+#poo{
+ display: inline-grid;
+    width: 5%;
+    background-color: fuchsia;
+} 
+#krabs{
+    text-indent: 0px;
+    font-size: 45px;
+    font-family: monospace;
+    text-shadow: 3px 2px blue ;
+    width: 30%;
+    margin-right: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    border-style: solid;
+    border-color: blue;
+    border-width:thin;
+    background-color:azure; 
+}
+h {
+    text-decoration: underline;
+    color: rebeccapurple; 
+} 
+
+p2{
+    font-size:10px;
+}
+
+#why img {
+    float: left;
+    position: relative;
+}
+
+#why p {
+    float: left;
+    position: relative;
+}
+
+#whynot {
+    float: right;
+    position: fixed;
+    margin-top: 300px;
+}
