@@ -1,9 +1,26 @@
 body
 {
-    background-color:hotpink;}
+    background-color:lightgreen;}
 h1{
     display: block;
     background-color: aqua;
-    width: 13em;
-    font-family:monospace ;
+    width: 15em;
+    font-family:'comic Sans MS';
+    color: #5e0f32;
+    font-size: 20px;
+    text-indent: 2em;
+} 
+#fart{
+     display: inline-grid;
+    background-color: fuchsia;
+}
+a{
+  color: lightcyan;
+    font-size: 30px;
+}
+a:hover{
+    color: cadetblue;
+}
+a:visited{
+    color: darkolivegreen;
 }
