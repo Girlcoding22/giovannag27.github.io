@@ -1,28 +1,46 @@
 body{
-background-color:rgb(255, 191, 240);
+background-color:lightgreen;
 }
-a {
-    text-decoration: none;
+a{
+    color: lightcyan;
+    font-size: 30px;
 }
-p {
+a:hover{
+    color: cadetblue;
+}
+a:visited{
+    color: darkolivegreen;
+}
+#poo{
+ display: inline-grid;
+    background-color: fuchsia;
+    
+} 
+p{
     text-indent: 80px;
     font-size: 45px;
     font-family: fantasy;
-    text-shadow: 3px 2px blue ;
+    text-shadow: 3px 2px white ;
     padding-bottom: 0;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px; 
 }
-h {
+h{
     text-decoration: underline;
-    color: rebeccapurple; 
+    color: #5e0f32; 
 }   
-#yellow{
-    text-align: left;
-    text-indent: 2px;
-    font-size: 20px;
-    font-family: monospace;
-    text-shadow: none;
-    padding: 0;
+
+p2{
+    font-size: 18px;
+}
+#maneater{
+    font-size: 18px;
+}
+#kermit{
+    width: 30%;
+}
+#fart{
+     display: inline-grid;
+    background-color: fuchsia;
 }
