@@ -1,9 +1,25 @@
 body{
-    background-color: aquamarine;
+    background-color: lightgreen;
 }
-p{}
+h{
+    text-indent: 20px;
+    color:  #5e0f32;
+}
 #big_time_rush{
 display: block;
-background-color: darkmagenta;
+background-color: lightcoral;
 width: 21em;
+}
+#fart{
+ display: inline-grid;
+    background-color: fuchsia;}
+a{
+    font-size: 25px;
+    color: lightcyan;
+}
+a:hover{
+    color: cadetblue;
+}
+a:visited{
+    color: darkolivegreen;
 }
