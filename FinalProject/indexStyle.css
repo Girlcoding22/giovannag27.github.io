@@ -22,3 +22,6 @@ li a{
 a:hover{
  color:lightblue;   
 }
+a:visited{
+ color:ashy;   
+}
