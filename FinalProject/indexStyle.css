@@ -23,10 +23,7 @@ a:hover{
  color:lightblue;   
 }
 a:visited{
- color:ashy;   
-}
-hr {
-  color: green;
+ color:rgba(92,242,232,1);   
 }
 
 
