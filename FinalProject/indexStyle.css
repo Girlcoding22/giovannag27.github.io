@@ -20,7 +20,7 @@ li a{
     text-align:center;
 }
 a:hover{
- color:deepblue;   
+color: deepskyblue;
 }
 @mediaonly screen
     and (max-width:900px){
