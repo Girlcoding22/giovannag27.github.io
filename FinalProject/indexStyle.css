@@ -23,7 +23,7 @@ a:hover{
 color: deepskyblue;
 }
 @mediaonly screen
-    and (max-width:900px){
+    and (max-width:360px){
 width:100%;
 height:auto
 }
