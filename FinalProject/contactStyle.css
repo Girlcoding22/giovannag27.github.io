@@ -1,6 +1,31 @@
 #nav{
   float: right;
 }
-body{
-  color: lightgreen; 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+li{
+display:inline;  
+  float:right;
+}
+li a{
+ display: block;
+ bakground-color:black;
+      display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align:center;
+}
+a:hover{
+ color:lightblue;   
+}
+a:visited{
+ color:rgba(92,242,232,1);   
+}
+
