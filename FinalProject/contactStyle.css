@@ -38,12 +38,11 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    transform:rotate(180deg);
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
 }
-img{
-transform:rotate(180deg)
-}
+
