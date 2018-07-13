@@ -29,8 +29,12 @@ color: deepskyblue;
 #oof{
    max-width:90%;
    height:auto;
+   border-radius: 50%;
 }
 p{
 text-indent:20px;
 }
 
+img {
+  
+}
