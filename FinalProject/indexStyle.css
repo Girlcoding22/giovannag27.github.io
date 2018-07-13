@@ -33,16 +33,7 @@ height:auto;
    max-width:50%;
    height:auto;
 }
-p2{
+p{
 text-indent:20px;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
+
