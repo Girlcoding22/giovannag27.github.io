@@ -25,11 +25,8 @@ color: deepskyblue;
 @media only screen and(min-width:480px){
     body{background-color: pink;}
 }
-img{
-max-width:100%;
-height:auto;
-}
-#yikes{
+
+#oof{
    max-width:50%;
    height:auto;
 }
