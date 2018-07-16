@@ -25,7 +25,7 @@ color: deepskyblue;
 }
 @media only screen and (max-width:600px){
     html,body{
-    background-color:blur;}
+    background-color:blue;}
 }
 
 #oof{
