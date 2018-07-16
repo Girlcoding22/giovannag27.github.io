@@ -3,15 +3,19 @@
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    background-color: #333;
 }
 li{
 display:inline;  
-  float:right;
+  float:left;
+    width: 20%;
 }
 li a{
  display: block;
- bakground-color: black;
+ background-color:black;
       display: block;
     color: white;
     text-align: center;
@@ -20,9 +24,40 @@ li a{
     text-align:center;
 }
 a:hover{
- color: darkblue;   
+ color: darkslateblue;   
 }
-#GoogleForm {
-  float: right;
+#g2contact{
+    float: left;
+    text-align: center; 
+    padding-left: 1em;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
 }
-
+#gcontact{
+    float: right;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+}
+#jcontact{
+    float:left;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+}
+#vcontact{
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+}
+#Googleform{
+    float: center;
+    width:100%;
+}
+h1{
+    text-align: center;
+}
