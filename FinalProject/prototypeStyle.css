@@ -1,17 +1,18 @@
-#nav{
-  float: right;
-}
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    background-color: #333;
 }
 li{
 display:inline;  
-  float:right;
+  float:left;
+    width: 20%;
 }
 li a{
  display: block;
- bakground-color:black;
+ background-color:black;
       display: block;
     color: white;
     text-align: center;
@@ -20,13 +21,24 @@ li a{
     text-align:center;
 }
 a:hover{
- color: darkblue;   
+ color: darkslateblue;   
 }
 #p1{
-    text-align:right;
+    float: right;
     line-height: 1.5;
+    margin-left:auto;
+    
 }
 #h1{
-    text-align:center;
+    text-align: center;
+}
+#p2{
+    float:right;
+    width: 55%; 
+    line-height: 1.5; 
+}
+#img2{
+    text-align:left; 
+    width: 40%;
     
 }
