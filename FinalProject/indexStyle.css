@@ -8,6 +8,38 @@ ul {
 li{
 display:inline;  
   float:left;
+    width: 30%;
+}
+li a{
+ display: block;
+ background-color:black;
+      display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align:center;
+
+}
+a:hover{
+color: deepskyblue;
+}
+@media only screen and (max-width:600px){
+    html,body{
+    background-color:#c5cf65;}
+    #wowza{
+        width: 400px;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+display:inline;  
+  float:left;
     width: 20%;
 }
 li a{
@@ -19,22 +51,17 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
     text-align:center;
+
 }
 a:hover{
 color: deepskyblue;
 }
-@media only screen and (max-width:600px){
-    html,body{
-    background-color:#c5cf65;}
 }
 
 #oof{
    max-width:90%;
    height:auto;
    border-radius: 30%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
 }
 p{
 text-indent:20px;
