@@ -14,14 +14,14 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: black;
 }
     a:hover{
         color:darkblue;
            }
  li a {
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
