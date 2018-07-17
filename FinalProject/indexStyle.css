@@ -1,3 +1,4 @@
+/*this is the mobile veersion*/
 @media only screen and (max-width:600px){
       
   body, html{
@@ -55,13 +56,14 @@ font-size:24px;
       max-width:50%;
       border-radius:20%;
       }
-      
 }
+}
+/*hotizontal object*/
 @media only screen and (orientation:landscape){
-      body{
+     body{
       background-color:#c5cf65;
       }
-        img{
+      img{
           max-width:50%;
           border-radius:20%;
       }
