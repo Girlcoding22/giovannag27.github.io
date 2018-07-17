@@ -55,4 +55,10 @@ font-size:24px;
       max-width:50%;
       border-radius:20%;
       }
+      
+}
+@media only screen and (orientation:landscape){
+      body{
+      background-color:pink;
+      }
 }
