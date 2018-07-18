@@ -1,21 +1,91 @@
-@media screen and (orientation: landscape) {
-  body {
-    flex-direction: row;
-  }
+/*Mobile*/
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightgray;
+        
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 10px;
+    
 }
-
-
-@media screen and (orientation: portrait) {
-  body {
-    flex-direction: column;
-  }
+li{
+display:inline;  
+    width: 10%;
+    float:right;
 }
+li a{
+ display: block;
+ background-color:black;
+      display: block;
+    color: white;
+    text-align: right;
+    padding: 10px 11px;
+    text-decoration: none;
+    text-align:right;
+}
+a:hover{
+ color: deepskyblue;   
+}
+#g2contact{
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gcontact{
+  text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jcontact{
+    float:center;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#vcontact{
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+#all{
+    float:center;
+    text-align:center;
+}
+#Googleform{
+    float: center;
+    width:100%;
+}
+h1{
+    text-align: center;
+}
+    }
 
 
-
-
-
-#nav{
+/*Desktops*/
+    @media only screen and (min-width: 900px){
+        #nav{
   float: right;
 }
 ul {
@@ -27,21 +97,21 @@ ul {
 }
 li{
 display:inline;  
-  float:left;
     width: 20%;
+    float:right;
 }
 li a{
  display: block;
  background-color:black;
       display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    text-align:center;
+    text-align: center;
 }
 a:hover{
- color: blue;   
+ color: deepskyblue;   
 }
 #g2contact{
     float: left;
@@ -81,7 +151,6 @@ a:hover{
     max-width:25%;
     float:left; 
     width: 22%;
-    
 }
 #all{
     float:center;
@@ -94,89 +163,9 @@ a:hover{
 h1{
     text-align: center;
 }
-@media screen and (max-width: 600px) {
+    }
+/*Tablets*/
+@media only screen and (min-width: 728px){
     
-    background-color: lightgray;
-  #nav{
-  float: right;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li{
-display:inline;  
-  float:left;
-    width: 20%;
-}
-li a{
- display: block;
- background-color:black;
-      display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align:center;
-}
-a:hover{
- color: blue;   
-}
-#g2contact{
-    float: left;
-    text-align: center; 
-    padding-left: 1em;
-    border-style: solid;
-    border-bottom: 3px solid green;
-    padding: 1em;
-    max-width: 25%;
-     width: 22%;
-}
-#gcontact{
-    float: left;
-    text-align: center;
-    border-style: solid;
-    border-bottom: 3px solid green;
-    padding: 1em;
-    max-width: 25%;
-    width: 22%;
-}
-#jcontact{
-    float:left;
-    text-align: center;
-    border-style: solid;
-    border-bottom: 3px solid green;
-    padding: 1em;
-    max-width: 25%;
-    width: 22%
-}
-#vcontact{
-    text-align: center;
-    border-style: solid;
-    border-bottom: 3px solid green;
-    padding: 1em;
-    padding-right: 1em; 
-    padding-left: 1em;
-    max-width:25%;
-    float:left; 
-    width: 22%;
-    
-}
-#all{
-    float:center;
-    text-align:center;
-}
-#Googleform{
-    float: center;
-    width:100%;
-}
-h1{
-    text-align: center;
-}
-  
-  
     
 }
