@@ -28,6 +28,9 @@ color: deepskyblue;
 #oof{
     float:left;
 }
+    #cows{
+    max-width:50%
+    }
     #shat{
     float:left; 
     max-width:40%; 
@@ -45,4 +48,5 @@ font-size:24px;
 #google_translate_element{
         text-align:right;
 }
+    
 }
