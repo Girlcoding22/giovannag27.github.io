@@ -30,7 +30,8 @@ color: deepskyblue;
 }
     #shat{
     float:left;
-    max-width:20%; 
+    max-width:50%; 
+    margin-left:2px;
     }
 p{
 text-indent:2px;
