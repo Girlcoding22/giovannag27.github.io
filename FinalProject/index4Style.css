@@ -45,5 +45,7 @@ text-indent:0px;
 h{
 font-size:24px;
 }
-    
+    #google_translate_element{
+        text-align:right;
+}
 }
