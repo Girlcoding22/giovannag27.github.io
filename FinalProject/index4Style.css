@@ -27,8 +27,11 @@ color: deepskyblue;
 }
     
 #oof{
+    float:left;
 }
-
+    #shat{
+    float:left;
+    }
 p{
 text-indent:0;
 }
