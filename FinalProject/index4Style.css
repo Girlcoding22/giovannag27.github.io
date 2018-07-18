@@ -28,14 +28,13 @@ color: deepskyblue;
 #oof{
     float:left;
 }
-    #cows{
+#cows{
     max-width:50%;
-    }
-    #shat{
-    float:left; 
-    max-width:40%; 
+}
+#shat{
+    width: 100%; 
     margin-left:22px;
-     }
+}
 p{ 
 text-indent:20px;
 }
