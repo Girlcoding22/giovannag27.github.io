@@ -14,7 +14,6 @@
 li {
     float: right;
 }
-
 li a {
     display: block;
     color: white;
@@ -33,7 +32,7 @@ color: deepskyblue;
     float:left;
     }
 p{
-text-indent:0;
+text-indent:2px;
 }
 #ihatethis{
 text-indent:0px;
