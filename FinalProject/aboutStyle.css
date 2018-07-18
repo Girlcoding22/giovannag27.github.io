@@ -52,10 +52,12 @@
         position: relative;
         line-height: 1.6;
         margin: none;
+        margin-right: 110px;
         }
     #idk {
-        float: right;
+        float: left;
         margin-bottom: 10px;
+        margin-right: 50px;
         }
     h2{
         margin: 1%;
