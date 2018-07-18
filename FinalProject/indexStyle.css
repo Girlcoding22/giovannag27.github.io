@@ -49,12 +49,14 @@ font-size:24px;
       max-width:50%;
       border-radius:20%;
       }
-}
+      #poop{
+       margin-left:20%;
+      }
 }
 /*hotizontal object*/
 @media only screen and (orientation:landscape){
      body{
-      background-color:#c5cf65;
+      background-color:lightgray;
       }
       img{
           max-width:50%;
@@ -64,5 +66,7 @@ font-size:24px;
 /*horizontal Fono*/
 @media only screen and(max-width:568px) and (orientation:landscape){
       
-      
+      html,body{
+      background-color:green;
+      }
 }
