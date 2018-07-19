@@ -164,8 +164,88 @@ h1{
     text-align: center;
 }
     }
+
 /*Tablets*/
-@media only screen and (min-width: 728px){
-    
-    
+@media only screen and (min-width: 601px) and (max-width:1024px){
+#nav{
+  float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+display:inline;  
+    width: 20%;
+    float:right;
+}
+li a{
+ display: block;
+ background-color:black;
+      display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+ color: deepskyblue;   
+}
+#google_translate_element{
+    float:right; 
+            
+        }
+#g2contact{
+    float: left;
+    text-align: center; 
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    max-width: 50%;
+     width: 45%;
+}
+#gcontact{
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    max-width: 50%;
+    width: 45%;
+}
+#jcontact{
+    float:left;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    max-width: 50%;
+    width: 45%
+}
+#vcontact{
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px solid green;
+    padding: 1em;
+    padding-right: 1em; 
+    padding-left: 1em;
+    max-width:50%;
+    float:left; 
+    width: 45%;
+}
+#all{
+    float:center;
+    text-align:center;
+}
+#Googleform{
+    float: center;
+    width:100%;
+}
+h1{
+    text-align: center;
+}   
 }
