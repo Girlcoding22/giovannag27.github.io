@@ -73,6 +73,8 @@
         float: left;
         margin-right: 5px;
         }
+    div{
+        margin-top: 15px;
 }
 @media only screen and (min-width:900px);
 body, html{
