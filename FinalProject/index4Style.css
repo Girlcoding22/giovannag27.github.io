@@ -32,6 +32,9 @@ color: deepskyblue;
 }
 #cows{
     max-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block
 }
 p{ 
 text-indent:20px;
@@ -51,5 +54,7 @@ font-size:24px;
 #google_translate_element{
         text-align:right;
 }
-
+    hr{
+        width:100%;
+    }
 }
