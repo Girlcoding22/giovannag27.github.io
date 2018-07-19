@@ -30,6 +30,7 @@ color: deepskyblue;
     float:left;
     margin:20px;
     animation-name:OO;
+    animation-duration:10s;
 }
 #cows{
     max-width:50%;
@@ -37,6 +38,7 @@ color: deepskyblue;
     margin-right:auto;
     display:block;
     animation-name:OO;
+    animation-duration:10s;
 }
 p{ 
 text-indent:20px;
