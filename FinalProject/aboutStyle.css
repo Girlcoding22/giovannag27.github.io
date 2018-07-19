@@ -73,6 +73,9 @@
         float: left;
         margin-right: 5px;
         }
+#google {
+    margin-top: 15%;
+}
 @media only screen and (min-width:900px);
 body, html{
         width:100%;
