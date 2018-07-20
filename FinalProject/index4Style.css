@@ -4,10 +4,11 @@
     max-width:100%;
     overflow-x:hidden;
     }
+       }
     ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 9px 11px;
     overflow: hidden;
     background-color: black;
 }
@@ -19,9 +20,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 9px 11px;
     text-decoration:none;
-}
+    font-size:18px;
 a:hover{
 color: deepskyblue;
 }
