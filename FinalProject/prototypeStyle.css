@@ -71,7 +71,6 @@ ul {
 li{
 display:inline;  
   float:right;
-    width: 20%;
 }
 li a{
  background-color:black;
