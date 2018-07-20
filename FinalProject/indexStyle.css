@@ -9,7 +9,7 @@
         margin:0px;
         background-color:lightgray;
 } 
-  ul {
+   ul {
         display: inline;
         float: right;
         color: white;
@@ -36,9 +36,6 @@
         padding: 9px 11px;
         text-decoration: none;
         text-align:center;
-        }
-    a:hover{
-        color: deepskyblue;
         }
     h1{
         margin: 0%;
