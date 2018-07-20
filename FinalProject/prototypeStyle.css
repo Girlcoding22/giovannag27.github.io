@@ -74,14 +74,12 @@ display:inline;
     width: 20%;
 }
 li a{
- display: block;
  background-color:black;
       display: block;
     color: white;
     text-align: right;
     padding: 9px 11px;
     text-decoration: none;
-    text-align:center;
 }
 a:hover{
  color: deepskyblue;   
