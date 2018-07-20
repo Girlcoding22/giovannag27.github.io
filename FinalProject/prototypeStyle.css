@@ -91,8 +91,8 @@ a:hover{
     text-align: center;
 }
 #p2{
-    float:right;
-    width: 55%; 
+    /*float:right;*/
+    max-width: 40%; 
     line-height: 1.5; 
     font-size: 18px;
     padding-right: 1em;
@@ -100,11 +100,16 @@ a:hover{
 #img2{
     text-align:left; 
     width: 40%;  
-     margin-top:-20px;
-    float:left
+     margin-top:-0px;
+    float:left;
 }
 #img1{
-        margin-left:400px;
+       margin-left:auto;
+        margin-right:auto;
+        display:block;
         }
-#video{}
+#video{
+        margin-left:600px;
+    margin-bottom:40px;
+        }
 }
