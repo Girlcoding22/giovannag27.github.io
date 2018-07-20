@@ -59,6 +59,10 @@ font-size:24px;
       #poop{
        margin-left:20%;
       }
+       #cows{
+       max-width:40%;
+       height:50%;
+       }
 }
 /*hotizontal object*/
 @media only screen and (orientation:landscape){
