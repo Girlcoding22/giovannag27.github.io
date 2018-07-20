@@ -52,6 +52,9 @@ a:hover{
 #video{
     width:100%; 
          }
+#review2{
+    float:right; 
+    }
 }
 
 
@@ -113,4 +116,7 @@ a:hover{
         margin-left:600px;
     margin-bottom:40px;
         }
+#review2{
+    float: right;
+}
 }
