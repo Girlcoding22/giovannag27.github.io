@@ -103,8 +103,8 @@ li a{
       display: block;
     color: white;
     text-align: right;
-    padding: 9px 11px;
-    text-decoration: none; 
+    padding: 10px 14px;
+    text-decoration:none;
 }
 a:hover{
  color: deepskyblue;   
