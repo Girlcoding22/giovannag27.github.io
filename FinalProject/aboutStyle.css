@@ -154,6 +154,9 @@ body, html{
         float: left;
         margin-right: 5px;
         }
+    #graph{
+        float: left;
+    }
 }
 @media only screen and (max-width:600px) and (min-width:900px){
     body, html{
