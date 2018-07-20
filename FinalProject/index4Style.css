@@ -99,4 +99,6 @@ font-size:24px;
         opacity: 100;
     
     }
+        html{background:rgba(0,0,0,0.03);
+border-radius:8px;}
 }
