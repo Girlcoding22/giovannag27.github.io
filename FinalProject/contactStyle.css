@@ -103,8 +103,7 @@ ul {
     background-color: black;
 }
 li{
-display:inline;  
-    width: 20%;
+display:inline;
     float:right;
 }
 li a{
