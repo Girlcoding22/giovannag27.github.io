@@ -65,6 +65,10 @@ font-size:24px;
           margin-right:auto;
           display:block
        }
+         #google_translate_element{
+        text-align:left;
+        margin-top:50px;   
+}
 }
 /*hotizontal object*/
 @media only screen and (orientation:landscape){
