@@ -1,5 +1,8 @@
 /*Mobile*/
 @media only screen and (max-width:600px){
+    body,html{
+        overflow-x: hidden;
+    }
     ul {
     list-style-type: none;
     margin: 0;
@@ -10,15 +13,14 @@
 li{
 display:inline;  
   float:right;
-    width: 20%;
 }
 li a{
  display: block;
  background-color:black;
       display: block;
     color: white;
-    text-align: right;
-    padding: 10px 14px;
+    text-align: center;
+    padding: 9px 11px;
     text-decoration: none;
     text-align:center;
 }
@@ -29,22 +31,27 @@ a:hover{
     float: right;
     line-height: 1.5;
     margin-left:auto;
+    margin-right:auto; 
     text-indent: 20px;
     }
 #h1{
     text-align: center;
 }
 #p2{
-    float:right;
-    width: 55%; 
-    line-height: 1.5; 
-    font-size: 18px;
-    padding-right: 1em;
+    margin-left: auto;
+    margin-right:auto;
+    line-height: 1.5;
 }
 #img2{
     text-align:left; 
-    width: 40%;
+    width: 100%;
     }
+#img1{
+        width:100%;
+    }
+#video{
+    width:100%; 
+         }
 }
 
 /*Desktops*/
@@ -92,58 +99,6 @@ a:hover{
 }
 #img2{
     text-align:left; 
-    width: 40%;
-    
+    width: 40%;  
 }
-        /*Tablets*/
-@media only screen and (min-width: 728px){
-    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li{
-display:inline;  
-  float:right;
-    width: 20%;
-}
-li a{
- display: block;
- background-color:black;
-      display: block;
-    color: white;
-    text-align: right;
-    padding: 10px 14px;
-    text-decoration: none;
-    text-align:center;
-}
-a:hover{
- color: deepskyblue;   
-}
-#p1{
-    float: right;
-    line-height: 1.5;
-    margin-left:auto;
-    
-}
-#h1{
-    text-align: center;
-}
-#p2{
-    float:right;
-    width: 55%; 
-    line-height: 1.5; 
-    font-size: 18px;
-    padding-right: 1em;
-}
-#img2{
-    text-align:left; 
-    width: 40%;
-    
-}
- #video{
-    text-align:center;
-    }    
 }
