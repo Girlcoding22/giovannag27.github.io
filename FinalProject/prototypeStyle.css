@@ -95,8 +95,8 @@ a:hover{
     text-align: center;
 }
 #p2{
-    /*float:right;*/
-    max-width: 40%; 
+   
+    max-width:%; 
     line-height: 1.5; 
     font-size: 18px;
     padding-right: 1em;
